@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trip Tips - Cadastro</title>
+    <link rel="icon" type="image/x-icon" href="../assets/favicon.png">
+    <link rel="stylesheet" href="../styles/auth.css">
+</head>
+
+<body data-img="eiffel_tower">
+    <div class="cadastro-bg">
+        <div class="auth">
+            <form class="auth-container" action="../index.html">
+                <h1>Cadastro</h1>
+                <div class="auth-input-group">
+                    <label class="nome-label">Nome Completo</label>
+                    <input class="nome-input" type="text" name="nome" placeholder="Insira seu nome completo" required>
+                </div>
+                <div class="auth-input-group">
+                    <label class="email-label">Email</label>
+                    <input class="email-input" type="email" name="email" placeholder="Insira o email" required>
+                </div>
+                <div class="auth-input-group">
+                    <label class="pw-label">Senha</label>
+                    <input class="pw-input" type="password" name="password" placeholder="Insira a senha" required>
+                </div>
+                <div class="auth-input-group">
+                    <label class="pw-label">Confirme a senha</label>
+                    <input class="pw-input" type="password" name="password" placeholder="Insira a senha" required>
+                </div>
+                <div class="auth-input-group">
+                    <fieldset>
+                        <legend>Pretendo viajar á:</legend>
+                        <span class="auth-checkbox-group">
+                            <input type="checkbox" name="work" id="work">
+                            <label for="work">Trabalho</label>
+                        </span>
+                        <span class="auth-checkbox-group">
+                            <input type="checkbox" name="tourism" id="tourism">
+                            <label for="tourism">Turismo</label>
+                        </span>
+                        <span class="auth-checkbox-group">
+                            <input type="checkbox" name="study" id="study">
+                            <label for="study">Estudo</label>
+                        </span>
+                    </fieldset>
+                </div>
+                <button type="submit" class="submit-btn">Cadastrar</button>
+                <a href="login.html">Já possuo uma conta</a>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
